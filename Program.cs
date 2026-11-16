@@ -204,7 +204,6 @@ class Program
         File.WriteAllLines("negavite.txt", negavite);
         File.WriteAllLines("twoDigit.txt", twoDigit);
         File.WriteAllLines("fiveDigit.txt", fiveDigit);
-        
         Console.WriteLine($"Amount of numbers: {lines.Length}");
         Console.WriteLine($"Positive numbers: {positive.Count}");
         Console.WriteLine($"Negavite numbers: {negavite.Count}");
